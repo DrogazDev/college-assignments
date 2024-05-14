@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Rekenmachine</title>
+</head>
+<body class="">
+    <h1 class="text-4xl text-center pt-5">Rekenmachine</h1>
+    <div class="flex container mx-auto place-content-center mt-10">
+        <div class="border p-10 rounded-xl  bg-gray-300">
+            <div>
+                <input type="text" placeholder="Display" class="display border rounded-md p-3 text-1xl">
+                <input type="text" hidden class="hidden-display">
+                <input type="button" id="clear" value="C" class="button border rounded-md p-3 px-5 hover:bg-gray-300 bg-white hover:cursor-pointer hover:cursor-pointer">
+            </div>
+            <div class="space-x-4 mt-3">
+                <input type="button" id="+" value="+" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer hover:cursor-pointer">
+                <input type="button" id="-" value="-" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+                <input type="button" id="*" value="*" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+                <input type="button" id="/" value="/" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+            </div>
+            <div class="space-x-4 mt-3">
+                <input type="button" id="1" value="1" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+                <input type="button" id="2" value="2" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+                <input type="button" id="3" value="3" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+                <input type="button" id="4" value="4" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+            </div>
+            <div class="space-x-4 mt-3">
+                <input type="button" id="5" value="5" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+                <input type="button" id="6" value="6" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+                <input type="button" id="7" value="7" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+                <input type="button" id="8" value="8" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+            </div>
+            <div class="space-x-4 mt-3">
+                <input type="button" id="9" value="9" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+                <input type="button" id="0" value="0" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+                <input type="button" id="decimal" value="." class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+                <input type="button" id="equals" value="=" class="button border rounded-md p-3 px-5 bg-white hover:bg-gray-300 hover:cursor-pointer">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
