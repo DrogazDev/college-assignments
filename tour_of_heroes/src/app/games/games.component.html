@@ -1,0 +1,12 @@
+<h1>Games</h1>
+<h2>Teams:</h2>
+<div *ngFor="let battle of battles">
+    <span>Game: {{battle.name}} ({{battle.id}})</span>
+    <div>
+        <li>Team: {{battle.team1}}</li>
+    </div>
+    <div>
+        <li>Team: {{battle.team2}}</li>
+    </div>
+    <br><br>
+</div>
